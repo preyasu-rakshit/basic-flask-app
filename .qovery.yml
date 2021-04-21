@@ -1,0 +1,11 @@
+---
+application:
+  name: "basic-flask-app"
+  project: "aa"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-basic-flask-app"
+  routes:
+  - application_name: "basic-flask-app"
+    paths:
+    - "/*"
